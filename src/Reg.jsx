@@ -6,10 +6,10 @@ function Reg() {
     name: "",
     email: "",
   });
-  const changeName=(e)=>
-  {
-    setData({...data,[e.target.name]:e.target.value})
-  }
+//   const changeName=(e)=>
+//   {
+//     setData({...data,[e.target.name]:e.target.value})
+//   }
 
   const submit = async () => {
     try {
